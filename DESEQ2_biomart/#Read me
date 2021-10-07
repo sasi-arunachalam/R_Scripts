@@ -1,0 +1,2 @@
+This folder has R scripts for doing DESEQ2 form STAR output. ALso, I added biomart library to convert ensemble ID to gene names then used those 
+input file for DESEq2 analysis. Further, i converted raw counts to normalized counts for heatmap and cluster plotting . thisnis prefreed to FPKM/TPM/PRKM

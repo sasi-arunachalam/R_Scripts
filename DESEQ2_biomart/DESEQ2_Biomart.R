@@ -71,7 +71,7 @@ plotPCA(vsdata, intgroup="dex")
 #For plotting with Gene names rather than ensemble 
 #id replace first column (ensemble id ) with gene name 
 #ofcourse you will lose dimension(len) in the dataset as some ensemble id has no gene name and some have duplciates
-#remove NA, duplicates and blanks in gene anme colums(first column)
+#remove NA, duplicates and blanks in gene name colums(first column)
 
 ##Step 1
 countData <- read.csv('airway_rawcounts.csv', header = TRUE, sep = ",")

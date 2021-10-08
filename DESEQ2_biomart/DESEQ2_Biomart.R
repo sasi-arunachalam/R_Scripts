@@ -94,7 +94,7 @@ write.csv(as.data.frame(countData), file="ensemble_id_vs_gene.csv" ) #use this f
 #DESEQ2 starts here for METHOD 2
 
 countData <- read.csv('airway_rawcounts_geneadded.csv', header = TRUE, sep = ",")
-which(is.na(countData)) #this will tell us if there is any missed NA ( or genes nammes as NA)
+which(is.na(countData)) #this will tell us location of missing rows  (NA)
 countData <- na.omit(countData) # omit the NA
 metaData <- read.csv('airway_metadata.csv', header = TRUE, sep = ",")
 

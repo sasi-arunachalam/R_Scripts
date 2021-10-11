@@ -30,7 +30,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),y=Dup_per,fill=factor(Fusion)
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/Dup+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/Dup+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 
 ##2
@@ -48,7 +48,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),y=Total_reads,fill=factor(Fus
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/Totalreads+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/Totalreads+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 ##3
 ##ggplot for Mapped reads
@@ -65,7 +65,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),y=Mapped_reads,fill=factor(Fu
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/Mapped_reads+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/Mapped_reads+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 
 ##4
@@ -83,7 +83,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),y=NonDupMpd_reads,fill=factor
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/NonDupMpd_reads+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/NonDupMpd_reads+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 
 
@@ -103,7 +103,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),y=Mapped_per,fill=factor(Fusi
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/Mapped_per+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/Mapped_per+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 
 
@@ -122,7 +122,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),y=Coverage_20X,fill=factor(Fu
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/Coverage+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/Coverage+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 
 
@@ -140,7 +140,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),y=Bamsize_Gb,fill=factor(Fusi
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/Bamsize+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/Bamsize+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 
 ##8
@@ -163,7 +163,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),fill=factor(Fusion))) +
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_2/Allreads+Fusion.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_2/Allreads+Fusion.pdf",width = 50, height = 10, units = "cm")
 
 
 

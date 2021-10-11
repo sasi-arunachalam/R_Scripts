@@ -30,7 +30,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Type),y=Percent_readmapped,fill=facto
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
 
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_3/readmapped.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_3/readmapped.pdf",width = 50, height = 10, units = "cm")
   
 ##ggplot for Totalreads read map 
 ggplot(data=stat, aes(x=fct_reorder(Sample,Type),y=Total_reads,fill=factor(Type))) +
@@ -46,7 +46,7 @@ geom_hline(yintercept=100000000, linetype="dashed")+
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_3/Totalreads.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_3/Totalreads.pdf",width = 50, height = 10, units = "cm")
 
 ##ggplot for duplicate rate 
 
@@ -62,7 +62,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Type),y=Duplicaterate,fill=factor(Typ
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_3/Duplicate.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_3/Duplicate.pdf",width = 50, height = 10, units = "cm")
 
 
 
@@ -79,7 +79,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Type),y=BamSize_G,fill=factor(Type)))
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_3/Dataoutput.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_3/Dataoutput.pdf",width = 50, height = 10, units = "cm")
 
 
 
@@ -96,7 +96,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Type),y= coverage_20X,fill=factor(Typ
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_3/Coverage.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_3/Coverage.pdf",width = 50, height = 10, units = "cm")
 
 
 
@@ -113,7 +113,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,coverage_20X),y= coverage_20X,fill=fa
     text=element_text(family="serif",size=20),
     plot.title=element_text(face="bold",hjust=c(0,0))
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_3/Coverage_sorted.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_3/Coverage_sorted.pdf",width = 50, height = 10, units = "cm")
 
 
 

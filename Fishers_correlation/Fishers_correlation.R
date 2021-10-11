@@ -1,6 +1,6 @@
 #-----------------------------------------------------
 #SASI ARUNACHALAM PhD : St Jude Childern Research Hospital
-# Fishers_plot
+# Fishers_Correlation_calculation
 #-----------------------------------------------------
 
 #install.packages("ggpubr")
@@ -27,7 +27,7 @@ Supplementary_new_final <- Supplementary_new_final %>% mutate (Val_x_vaf = Mutan
 
 
 ###################
-# Plot the corelation 
+# Plot the correlation 
 ###################
 
 

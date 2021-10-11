@@ -34,7 +34,7 @@ ggplot(data=stat, aes(x=fct_reorder(Sample,Fusion),fill=factor(Fusion))) +
   )
 
   
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_1/Allreads.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/Allreads.pdf",width = 50, height = 10, units = "cm")
 
 
 
@@ -55,7 +55,7 @@ ggplot(data=stat, aes(x=Sample, y=Map_perc)) +
     plot.title=element_text(face="bold",hjust=c(0,0))
     
 )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_1/mapped_per.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/mapped_per.pdf",width = 50, height = 10, units = "cm")
 
 
 ##3
@@ -74,7 +74,7 @@ ggplot(data=stat, aes(x=Sample, y=Dup_perc)) +
     plot.title=element_text(face="bold",hjust=c(0,0))
     
   )
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_1/dup_prec.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_1/dup_prec.pdf",width = 50, height = 10, units = "cm")
 
 
 ##4
@@ -94,4 +94,4 @@ ggplot(data=stat, aes(x=Sample, y=OnTargetDepth)) +
     
   )
 
-ggsave("~/Desktop/R_Scripts_compilation/NGS_QC_Stats_R/NGS_Stats_output_1/Target.pdf",width = 50, height = 10, units = "cm")
+ggsave("~working_directory/NGS_Stats_output_1/Target.pdf",width = 50, height = 10, units = "cm")

@@ -1,0 +1,2 @@
+Chr	Position	Reference_Allele	Variant_Allele
+chrX	135960148	-	AA

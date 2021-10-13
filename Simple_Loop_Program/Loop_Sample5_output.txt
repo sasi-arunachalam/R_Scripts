@@ -1,0 +1,2 @@
+Chr	Position	Reference_Allele	Variant_Allele
+chr15	44829415	CGG	-

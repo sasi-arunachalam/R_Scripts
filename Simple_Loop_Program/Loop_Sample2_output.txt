@@ -1,0 +1,2 @@
+Chr	Position	Reference_Allele	Variant_Allele
+chr21	36164844	-	G

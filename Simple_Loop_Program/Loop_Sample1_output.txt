@@ -1,0 +1,2 @@
+Chr	Position	Reference_Allele	Variant_Allele
+chr1	68697997	-	C

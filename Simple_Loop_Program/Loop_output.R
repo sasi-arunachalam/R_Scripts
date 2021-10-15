@@ -19,7 +19,7 @@ rm(list=ls())
 pre <- read_excel("Loop_output_input.xlsx",sheet="Two_Platform")
 pre <- pre %>% filter(Data=="Both")
 pre<-pre%>%select("Sample", "Chr" ,"WU_HG19_Pos", "ReferenceAllele", "MutantAllele") #select only columns you need
-colnames(pre) <- c("Sample","Chr","Position","Reference_Allele","Variant_Allele") # remane the columns
+colnames(pre) <- c("Sample","Chr","Position","Reference_Allele","Variant_Allele") # rename the columns
 
 ##############################
 ## loop
